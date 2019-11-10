@@ -3,6 +3,8 @@
 # Insights on public hospitals in Victoria, Brazil
 For this project the main goal was making use of Tableau, a powerful tool for data visualisation. For that, I found a dataset with data from public hospital units in Victoria,Brazil, which included information as Show/no-Show on medical appointment, waiting time for an appointment (since the moment the patient calls to make an appointment), health conditions, etc.
 
+I profiled this medical care data with pandas to input it in Tableau and further built an interactive dashboard to give insights on waiting times on hospital units and if that was resulting on more no-shows in appointments. I also explored things like: which medical conditions were taking longer to be addressed and what was the age and gender ratio per condition.
+
 ## Project Description
 - Dashboard 1) I started by plotting conditions vs. waiting time, so we could quickly see which conditions were taking longer to be addressed; I connected gender and age group to this so we could have a nice overview of the female/male and age ratio inside each condition.
 - Dashboard 2) I went to investigate which hospital units (neighbourhoods) were having longer waiting times, and if that was somehow resulting in more no-shows on the appointments.
